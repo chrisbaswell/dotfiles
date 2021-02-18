@@ -1,0 +1,47 @@
+- defaults:
+    link:
+      create: true
+      force: true
+    shell:
+      quiet: true
+
+- shell:
+  - description: Validating sudo credentials
+    command: "sudo --validate"
+
+- clean: ['~']
+
+- link:
+    ~/.gitconfig: git/gitconfig
+    ~/.zshrc: zsh/zshrc
+    ~/.config/starship.toml: starship.toml
+    ~/.composer/composer.json: composer/composer.json
+    ~/.composer/config.json: composer/config.json
+    ~/.mackup.cfg: mackup.cfg
+    ~/.ssh/config: ssh/config
+
+- shell:
+  - description: Hushing login
+    command: "[ -f ~/.hushlogin ] || touch ~/.hushlogin"
+  - description: Telling gatekeeper to allow unidentified developers
+    command: "sudo spctl --master-disable"
+  - description: Installing Homebrew
+   command: "[ -x \"$(which brew)\" ] || /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\""
+  - description: Updating Homebrew
+    command: "brew update"
+  - description: Installing Brewfile bundle
+    command: "brew bundle"
+  - description: Cleaning up Homebrew
+    command: "brew cleanup"
+  - description: Installing global Composer dependencies
+    command: "composer global install"
+  - description: Trust Valet
+    command: "valet trust"
+  - description: Initializing Valet
+    command: "valet install"
+  - description: Parking Valet
+    command: "valet park ~/Sites"
+  - description: Clearing sudo credential cache
+    command: "sudo --reset-timestamp"
+  - description: Apply MacOS preferences
+    command: "./macos"

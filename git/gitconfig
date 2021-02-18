@@ -1,0 +1,17 @@
+[user]
+	name = Chris Baswell
+	email = me@chrisbaswell.com
+[mergetool]
+	keepBackup = true
+[credential]
+	helper = osxkeychain
+[push]
+	default = simple
+[core]
+	excludesfile = /Users/chris/.dotfiles/git/gitignore_global
+[http]
+	postBuffer = 1048576000
+[grep]
+	patternType = perl
+[pull]
+	ff = only

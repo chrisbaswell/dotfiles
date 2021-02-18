@@ -1,0 +1,74 @@
+
+# ------------------------------------------------------------------------------
+# Paths
+# ------------------------------------------------------------------------------
+
+export DOTFILES=$HOME/.dotfiles
+export ZSH=$HOME/.oh-my-zsh
+export ZSH_CUSTOM=$DOTFILES/zsh/custom
+
+export PATH=/opt/homebrew/bin:${PATH}
+export PATH=/opt/homebrew/sbin:${PATH}
+export PATH=${PATH}:/usr/local/bin
+export PATH=${PATH}:/usr/local/sbin
+export PATH=${PATH}:~/.composer/vendor/bin
+
+
+# ------------------------------------------------------------------------------
+# General Settings
+# ------------------------------------------------------------------------------
+
+export LANG=en_US.UTF-8
+export XDEBUG_CONFIG="idekey=VSCODE"
+export HOMEBREW_PREFIX="/opt/homebrew"
+export HOMEBREW_CELLAR="/opt/homebrew/Cellar"
+export HOMEBREW_REPOSITORY="/opt/homebrew"
+
+
+# ------------------------------------------------------------------------------
+# Tipz
+# ------------------------------------------------------------------------------
+
+TIPZ_TEXT='💡 Aliased to:'
+source $ZSH_CUSTOM/plugins/tipz/tipz.zsh
+
+
+# ------------------------------------------------------------------------------
+# Oh My Zsh
+# ------------------------------------------------------------------------------
+
+plugins=(laravel please)
+source $ZSH/oh-my-zsh.sh
+
+
+# ------------------------------------------------------------------------------
+# Source External ZSH Files
+# ------------------------------------------------------------------------------
+
+source $DOTFILES/zsh/functions.zsh
+source $DOTFILES/zsh/aliases.zsh
+source $DOTFILES/zsh/private.zsh
+
+
+# ------------------------------------------------------------------------------
+# Starship Prompt
+# ------------------------------------------------------------------------------
+
+eval "$(starship init zsh)"
+
+
+# ------------------------------------------------------------------------------
+# Auto Suggest Settings
+# ------------------------------------------------------------------------------
+
+ZSH_AUTOSUGGEST_STRATEGY=(history completion) # First search history, then directory
+ZSH_AUTOSUGGEST_USE_ASYNC=true
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh 2>/dev/null
+
+
+# ------------------------------------------------------------------------------
+# Syntax Highlighting
+# ------------------------------------------------------------------------------
+
+export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/opt/homebrew/share/zsh-syntax-highlighting/highlighters
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
