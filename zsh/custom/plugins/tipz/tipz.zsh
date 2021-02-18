@@ -1,7 +1,5 @@
 #!/usr/bin/env zsh
 
-# https://github.com/molovo/tipz
-
 ###
 # Search the defined aliases for a match
 ###

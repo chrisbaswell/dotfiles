@@ -1,5 +1,6 @@
 tap 'homebrew/cask-drivers'
 tap 'epk/epk'
+tap microsoft/mssql-release https://github.com/Microsoft/homebrew-mssql-release
 
 brew 'composer'
 brew 'dnsmasq'

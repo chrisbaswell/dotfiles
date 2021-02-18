@@ -28,6 +28,10 @@
     command: "brew update"
   - description: Installing Brewfile bundle
     command: "brew bundle"
+  - description: Installing MSSQL drivers
+    command: "HOMEBREW_NO_ENV_FILTERING=1 ACCEPT_EULA=Y brew install msodbcsql17 mssql-tools"
+    command: "sudo pecl install sqlsrv"
+    command: "sudo pecl install pdo_sqlsrv"
   - description: Cleaning up Homebrew
     command: "brew cleanup"
   - description: Installing global Composer dependencies
