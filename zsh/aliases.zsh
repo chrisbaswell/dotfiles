@@ -15,7 +15,7 @@ alias ip6='curl v6.icanhazip.com'
 alias ls="ls -aFG"
 alias l="ls"
 alias rm="trash"
-alias weather='curl -s wttr.in | sed -n "1,7p"'
+alias weather='curl -s wttr.in/birmingham+alabama | sed -n "1,7p"'
 alias dot='cd ~/.dotfiles'
 alias o='open .'
 alias sites='cd ~/Sites'
@@ -35,7 +35,6 @@ alias gplr='git pull --rebase'
 alias gpsh='git push'
 alias nah='git reset --hard; git clean -df;'
 alias glt='git describe --tags --abbrev=0'
-alias gt='gittower .'
 alias gdb='git remote show origin | grep "HEAD branch" | cut -d " " -f5'
 alias gpr='gh pr checkout'
 alias wip="git add . && git commit -m 'wip'"
