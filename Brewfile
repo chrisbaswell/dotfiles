@@ -18,20 +18,21 @@ brew 'zsh-autosuggestions'
 brew 'zsh-syntax-highlighting'
 
 cask '1password'
-cask 'chrome'
 cask 'discord'
 cask 'docker'
 cask 'firefox'
 cask 'font-sf-mono-nerd-font'
 cask 'github'
+cask 'google-chrome'
 cask 'helo'
 cask 'iterm2'
 cask 'kaleidoscope'
-cask 'nordvpn'
 cask 'nova'
+cask 'setapp'
 cask 'slack'
 cask 'the-unarchiver'
 cask 'tinkerwell'
 cask 'visual-studio-code'
 
 mas 'Moom', id: 419330170
+mas 'NordVPN IKE - Unlimited VPN', id: 1116599239
