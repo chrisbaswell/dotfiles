@@ -22,6 +22,7 @@ brew 'zsh-autosuggestions'
 brew 'zsh-syntax-highlighting'
 
 cask '1password'
+cask 'alfred'
 cask 'discord'
 cask 'docker'
 cask 'firefox'
