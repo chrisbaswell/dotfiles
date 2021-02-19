@@ -43,3 +43,4 @@ cask 'visual-studio-code'
 
 mas 'Moom', id: 419330170
 mas 'NordVPN IKE - Unlimited VPN', id: 1116599239
+mas 'Fantastical - Calendar & Tasks', id: 975937182
