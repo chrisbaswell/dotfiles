@@ -25,6 +25,7 @@ cask '1password'
 cask 'alfred'
 cask 'discord'
 cask 'docker'
+cask 'fantastical'
 cask 'figma'
 cask 'firefox'
 cask 'font-sf-mono-nerd-font'
@@ -33,14 +34,15 @@ cask 'google-chrome'
 cask 'helo'
 cask 'iterm2'
 cask 'kaleidoscope'
+cask 'nordvpn'
 cask 'nova'
+cask 'parallels'
 cask 'setapp'
 cask 'slack'
-cask 'things'
 cask 'the-unarchiver'
 cask 'tinkerwell'
 cask 'visual-studio-code'
 
 mas 'Moom', id: 419330170
 mas 'NordVPN IKE - Unlimited VPN', id: 1116599239
-mas 'Fantastical - Calendar & Tasks', id: 975937182
+mas 'Things 3', id: 904280696
