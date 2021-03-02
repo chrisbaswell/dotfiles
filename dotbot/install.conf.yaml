@@ -24,6 +24,8 @@
     command: "sudo spctl --master-disable"
   - description: Installing Homebrew
     command: "[ -x \"$(which brew)\" ] || /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\""
+  - description: Tap microsoft for MSSQL
+    command: "brew tap microsoft/mssql-release https://github.com/Microsoft/homebrew-mssql-release"
   - description: Updating Homebrew
     command: "brew update"
   - description: Installing Brewfile bundle
