@@ -26,6 +26,9 @@ brew update
 brew tap homebrew/bundle
 brew bundle --file ./Brewfile
 
+# Start MySql Server
+mysql.server start
+
 # Set default MySQL root password and auth type
 mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
 
