@@ -42,6 +42,7 @@ brew 'yarn'
 # Apps
 cask '1password'
 cask 'airtame'
+cask 'dbngin'
 cask 'discord'
 cask 'figma'
 cask 'firefox'
