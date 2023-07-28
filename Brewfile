@@ -32,6 +32,7 @@ brew 'svgo'
 brew 'gifsicle'
 
 # Development
+brew 'composer'
 brew 'imagemagick'
 brew 'meilisearch'
 brew 'mysql'
@@ -41,33 +42,25 @@ brew 'yarn'
 
 # Apps
 cask '1password'
-cask 'caffeine'
-cask 'dbngin'
+cask 'airtame'
 cask 'discord'
-cask 'docker'
 cask 'figma'
 cask 'firefox'
 cask 'github'
 cask 'google-chrome'
+cask 'google-drive'
 cask 'helo'
 cask 'herd'
-cask 'imageoptim'
-cask 'insomnia'
-cask 'pastebot'
+cask 'parallels'
+cask 'phpstorm'
 cask 'ray'
 cask 'raycast'
-cask 'readdle-spark'
-cask 'screenflow'
+cask 'setapp'
 cask 'slack'
-cask 'tableplus'
-cask 'the-unarchiver'
+cask 'splashtop-business'
 cask 'tinkerwell'
-cask 'transmit'
-cask 'tunnelbear'
-cask 'tuple'
 cask 'visual-studio-code'
 cask 'zoom'
-cask 'zwift'
 
 # Quicklook
 cask 'qlmarkdown'
@@ -83,10 +76,7 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
-mas 'Byword', id: 420212497
-mas 'Giphy Capture', id: 668208984
 mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
-mas 'Speedtest', id: 1153157709
-mas 'Spring', id: 1508706541
+mas 'Pages', id: 409201541
 mas 'Things', id: 904280696

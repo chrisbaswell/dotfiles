@@ -32,13 +32,6 @@ mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_passwor
 # Create a Sites directory
 mkdir $HOME/Sites
 
-# Create sites subdirectories
-mkdir $HOME/Sites/blade-ui-kit
-mkdir $HOME/Sites/laravel
-
-# Clone Github repositories
-./clone.sh
-
 # Symlink the Mackup config file to the home directory
 ln -s .mackup.cfg $HOME/.mackup.cfg
 
