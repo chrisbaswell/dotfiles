@@ -70,8 +70,8 @@ cask 'font-open-sans'
 cask 'font-roboto'
 cask 'font-source-code-pro-for-powerline'
 cask 'font-source-code-pro'
-cask 'font-source-sans-pro'
-cask 'font-source-serif-pro'
+cask 'font-source-sans-3'
+cask 'font-source-serif-4'
 
 # Mac App Store
 mas 'Keynote', id: 409183694
