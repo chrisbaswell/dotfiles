@@ -10,6 +10,7 @@ tap 'stripe/stripe-cli'
 brew 'awscli'
 brew 'bash' # Latest Bash version
 brew 'bat' # Used for spatie/visit
+brew 'cmake'
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
 brew 'gh'
