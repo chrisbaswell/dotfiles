@@ -32,8 +32,8 @@ mysql.server start
 # Set default MySQL root password and auth type
 mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
 
-# Create a Sites directory
-mkdir $HOME/Sites
+# Create a Herd directory
+mkdir $HOME/Herd
 
 # Symlink the Mackup config file to the home directory
 ln -s HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
