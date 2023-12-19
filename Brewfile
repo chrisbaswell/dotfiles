@@ -1,5 +1,4 @@
 # Taps
-tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
@@ -42,7 +41,7 @@ brew 'yarn'
 
 # Apps
 cask '1password'
-cask 'airtame'
+cask 'cursor'
 cask 'dbngin'
 cask 'discord'
 cask 'docker'
@@ -51,18 +50,11 @@ cask 'firefox'
 cask 'github'
 cask 'google-chrome'
 cask 'google-drive'
-cask 'helo'
 cask 'herd'
-cask 'microsoft-office'
 cask 'parallels'
-cask 'phpstorm'
-cask 'ray'
-cask 'raycast'
 cask 'setapp'
 cask 'slack'
-cask 'splashtop-business'
 cask 'tinkerwell'
-cask 'visual-studio-code'
 cask 'zoom'
 
 # Quicklook
