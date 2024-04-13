@@ -11,18 +11,18 @@ alias library="cd $HOME/Library"
 alias sites="cd $HOME/Herd"
 
 # Laravel
-alias a="php artisan"
-alias fresh="php artisan migrate:fresh --seed"
-alias tinker="php artisan tinker"
-alias seed="php artisan db:seed"
-alias serve="php artisan serve"
+alias a="herd php artisan"
+alias fresh="herd php artisan migrate:fresh --seed"
+alias tinker="herd php artisan tinker"
+alias seed="herd php artisan db:seed"
+alias serve="herd php artisan serve"
 
 # PHP
 alias cfresh="rm -rf vendor/ composer.lock && composer i"
 
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
-alias watch="npm run watch"
+alias watch="npm run dev"
 
 # Git
 alias gst="git status"
