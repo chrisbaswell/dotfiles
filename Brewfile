@@ -33,16 +33,11 @@ brew 'gifsicle'
 # Development
 brew 'composer'
 brew 'imagemagick'
-brew 'meilisearch'
-brew 'mysql'
-brew 'node'
-brew 'redis'
 brew 'yarn'
 
 # Apps
 cask '1password'
 cask 'cursor'
-cask 'dbngin'
 cask 'discord'
 cask 'docker'
 cask 'figma'
