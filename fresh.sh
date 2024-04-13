@@ -26,11 +26,14 @@ brew update
 brew tap homebrew/bundle
 brew bundle --file ./Brewfile
 
+# Set default MySQL root password and auth type
+mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
+
 # Create a Herd directory
 mkdir $HOME/Herd
 
 # Symlink the Mackup config file to the home directory
-ln -s HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
+ln -s ./.mackup.cfg $HOME/.mackup.cfg
 
 # Set macOS preferences - we will run this last because this will reload the shell
 source ./.macos
