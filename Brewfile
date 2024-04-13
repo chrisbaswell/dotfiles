@@ -31,8 +31,8 @@ brew 'svgo'
 brew 'gifsicle'
 
 # Development
-brew 'composer'
 brew 'imagemagick'
+brew 'node'
 brew 'yarn'
 
 # Apps
